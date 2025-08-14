@@ -51,15 +51,17 @@ try {
                 // minute2OldInput.value = minute2Input.value -1;
 
                 //Demo implementation
+                hour1OldInput.value = hour1Input.value;
+                hour2OldInput.value =hour2Input.value;
+                minute1OldInput.value = minute1Input.value;
+                minute2OldInput.value = minute2Input.value;
+
                 hour1Input.value = Math.floor(dateTime.getMinutes() / 10);
                 hour2Input.value = dateTime.getMinutes() % 10;
                 minute1Input.value = Math.floor(dateTime.getSeconds() / 10);
                 minute2Input.value = dateTime.getSeconds() % 10;
 
-                hour1OldInput.value = hour1Input.value-1;
-                hour2OldInput.value =hour2Input.value-1;
-                minute1OldInput.value = minute1Input.value-1;
-                minute2OldInput.value = minute2Input.value -1;
+                
                 
             }
 
